@@ -12,7 +12,7 @@ docker run --rm -p 11111:11111/udp pazaan/sockperf sr
 
 ### On the client
 ```
-docker run -it --rm pazaan/sockperf pp --ip <ip_address_of_docker_host> -m 64
+docker run --rm pazaan/sockperf pp --ip <ip_address_of_docker_host> -m 64
 ```
 
 If you're running on the local host, then `localhost` (ie, 127.0.0.1) will not work. Use the IP address 
